@@ -12,13 +12,7 @@ Expected dataset structure::
     └── testing/
         ├── bleached_corals/*.jpg
         └── healthy_corals/*.jpg
-
-The model is always created with ``pretrained=False``. A checkpoint produced by
-this script contains weights learned only from the supplied coral dataset. No
-separate annotation or label files are required: the parent directory name is
-used as the binary class for each image.
 """
-
 from __future__ import annotations
 
 import argparse
